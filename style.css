@@ -138,11 +138,11 @@ section {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0, 0m5);
-  color: whitesmoke;
+  color: rgb(255, 255, 255);
   width: 100%;
   transition: .5s ease;
   opacity: 0;
-  color: white;
+  color: rgb(228, 208, 150);
   font-size: 20px;
   padding: 20px;
   text-align: center;
