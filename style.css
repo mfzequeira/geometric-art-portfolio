@@ -8,7 +8,7 @@
 
   body {
     display: grid;
-    background-color: whitesmoke;
+    background-color: #D5C5A3;
   }
 
   /* Header */
@@ -91,6 +91,24 @@ h1, h2, h3 {
 .text6 {
   grid-column-start: 1;
   grid-column-end: 3;
+  width: 420px;
+}
+
+.text7 {
+  grid-column-start: 2;
+  grid-column-end: 4;
+  width: 420px;
+}
+
+.text8 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  width: 420px;
+}
+
+.text9 {
+  grid-column-start: 2;
+  grid-column-end: 4;
   width: 420px;
 }
 
