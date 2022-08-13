@@ -8,7 +8,8 @@
 
   body {
     display: grid;
-    background-color: #D5C5A3;
+    background-color: whitesmoke;
+    font-family: 'Cinzel', serif;
   }
 
   /* Header */
@@ -61,55 +62,55 @@ h1, h2, h3 {
 .text1 {
   grid-column-start: 2;
   grid-column-end: 4;
-  width: 420px;
+  width: 510px;
 }
 
 .text2 {
   grid-column-start: 1;
   grid-column-end: 3;
-  width: 420px;
+  width: 510px;
 }
 
 .text3 {
   grid-column-start: 2;
   grid-column-end: 4;
-  width: 420px;
+  width: 510px;
 }
 
 .text4 {
   grid-column-start: 1;
   grid-column-end: 3;
-  width: 420px;
+  width: 510px;
 }
 
 .text5 {
   grid-column-start: 2;
   grid-column-end: 4;
-  width: 420px;
+  width: 510px;
 }
 
 .text6 {
   grid-column-start: 1;
   grid-column-end: 3;
-  width: 420px;
+  width: 510px;
 }
 
 .text7 {
   grid-column-start: 2;
   grid-column-end: 4;
-  width: 420px;
+  width: 510px;
 }
 
 .text8 {
   grid-column-start: 1;
   grid-column-end: 3;
-  width: 420px;
+  width: 510px;
 }
 
 .text9 {
   grid-column-start: 2;
   grid-column-end: 4;
-  width: 420px;
+  width: 510px;
 }
 
 section {
@@ -138,11 +139,10 @@ section {
   position: absolute;
   bottom: 0;
   background: rgb(0, 0, 0, 0m5);
-  color: rgb(255, 255, 255);
+  color: whitesmoke;
   width: 100%;
   transition: .5s ease;
   opacity: 0;
-  color: rgb(228, 208, 150);
   font-size: 20px;
   padding: 20px;
   text-align: center;
