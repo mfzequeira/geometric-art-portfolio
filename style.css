@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    border: none;
   }
 
   html {
@@ -132,6 +133,16 @@ h1, h2, h3 {
 
 .about_text {
   width: 640px;
+}
+
+/* Contact */
+
+.contact-twitter {
+  margin-bottom: 40px;
+}
+
+.contact.instagram {
+  margin-bottom: 200px;
 }
 
 section {
