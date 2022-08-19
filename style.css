@@ -407,14 +407,9 @@ li {
     .nav a {
       font-size: 13px;
     }
-    /*section.about {
-      width: auto;
-    }*/
-
     section.about {
       width: 360px;
     }
-    
     .about_image img {
       width: 340px;
     }
