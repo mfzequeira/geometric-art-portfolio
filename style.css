@@ -286,16 +286,31 @@ div.gallery img {
   width: 640px;
 }
 
-/* Contact */
-.contact-twitter {
-  display: block;
-  width: 538px;
-  margin-bottom: 20px;
+.follow-icons {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
 }
 
-.contact-instagram {
-  width: 538px;
-  margin-bottom: 30px;
+.twitter {
+  justify-items: end;
+  margin-right: 5px;
+}
+
+.instagram {
+  margin-left: 5px;
+}
+
+
+
+/* Contact */
+.blog-coming-soon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  width: 950px;
 }
 
 /* Footer */
@@ -366,8 +381,12 @@ li {
     .container-artwork.gallery {
       padding: 20px;
     }
+   
+    .blog-coming-soon {
+      width: 800px;
+    }
     .nav{
-      width: auto;
+      width: 800px;
     }
     section.about {
       width: auto;
@@ -394,7 +413,9 @@ li {
     .container-artwork.text {
       width: 350px;
     }
-    
+    .blog-coming-soon {
+      width: 340px;
+    }
     .gallery {
     width: auto;
     }
@@ -402,7 +423,7 @@ li {
     width: auto;
     }
     .nav {
-      width: 360px;
+      width: 340px;
     }
     .nav a {
       font-size: 13px;
