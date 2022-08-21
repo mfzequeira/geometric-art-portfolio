@@ -286,6 +286,10 @@ div.gallery img {
   width: 640px;
 }
 
+.korvin-link {
+  text-decoration: none;
+}
+
 .follow-icons {
   display: grid;
   grid-template-columns: 1fr 1fr;
