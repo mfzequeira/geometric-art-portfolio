@@ -366,11 +366,11 @@ li {
 /* @media */
 
   @media screen and (max-width: 820px) {
-    section {
+    body {
       width: auto;
     }
     header {
-      width: 370px;
+      width: auto;
     }
     .container {
       display: grid;
@@ -384,15 +384,17 @@ li {
       grid-template-rows: 1fr;
       width: auto;
     }
-    .container-artwork h3, p {
-      padding: 20px;
+    .gallery {
+      margin-left: auto;
+      margin-right: auto;
     }
-    .container-artwork.gallery {
+    .text {
       padding: 20px;
+      margin-left: auto;
+      margin-right: auto;
     }
-   
     .blog-coming-soon {
-      width: 800px;
+      width: auto ;
     }
     .nav{
       width: 800px;
@@ -413,23 +415,27 @@ li {
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: 1fr;
-      width: 300px;
+      width: auto;
     }
     .container-artwork {
       display: block;
-      width: 350px;
+      margin-left: auto;
+      margin-right: auto;
+      width: auto;
     }
     .container-artwork.text {
-      width: 350px;
+      width: auto;
     }
     .blog-coming-soon {
       width: 340px;
     }
     .gallery {
-    width: auto;
+      width: auto;
     }
     .text {
-    width: auto;
+      text-align: start;
+      padding: auto;
+      width: 300px;
     }
     .nav {
       width: 340px;
